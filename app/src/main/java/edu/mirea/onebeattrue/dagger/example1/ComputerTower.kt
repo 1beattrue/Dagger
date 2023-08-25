@@ -1,4 +1,4 @@
-package edu.mirea.onebeattrue.dagger
+package edu.mirea.onebeattrue.dagger.example1
 
 class ComputerTower(
     private val processor: Processor,
