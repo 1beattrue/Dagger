@@ -1,10 +1,9 @@
 package edu.mirea.onebeattrue.dagger.example1
 
 import dagger.Component
+import javax.inject.Inject
 
 @Component
 interface NewComponent {
-    fun getMouse(): Mouse
-    fun getKeyboard(): Keyboard
-    fun getMonitor(): Monitor
+    fun inject(activity: Activity)
 }
