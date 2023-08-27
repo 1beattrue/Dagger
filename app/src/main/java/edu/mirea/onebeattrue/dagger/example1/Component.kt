@@ -12,7 +12,7 @@ class Component {
         return Computer(monitor, mouse, keyboard, computerTower)
     }
 
-    fun inject(activity: Activity) {
-        activity.keyboard = Keyboard()
-    }
+//    fun inject(activity: Activity) {
+//        activity.keyboard = Keyboard()
+//    }
 }
