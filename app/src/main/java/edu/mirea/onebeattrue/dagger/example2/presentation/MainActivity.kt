@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState, persistentState)
         setContentView(R.layout.activity_main)
         val activity = Activity()
-        activity.computer.toString()
+        activity.keyboard.toString()
+        activity.mouse.toString()
     }
 }
