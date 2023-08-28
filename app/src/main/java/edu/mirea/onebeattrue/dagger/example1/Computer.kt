@@ -1,6 +1,8 @@
 package edu.mirea.onebeattrue.dagger.example1
 
-class Computer (
+import javax.inject.Inject
+
+class Computer @Inject constructor(
     private val monitor: Monitor,
     private val mouse: Mouse,
     private val keyboard: Keyboard,
